@@ -5,6 +5,8 @@
 - vite
 - react with javascript
 - react router
+- supabase
+- tanstack query
 
 ### Styling
 
@@ -37,3 +39,11 @@
 - App needs a dark mode
 
 ## Screenshots
+
+## Dependencies
+
+```
+npm install @supabase/supabase-js
+npm i @tanstack/react-query
+
+```
