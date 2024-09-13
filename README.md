@@ -7,6 +7,7 @@
 - react router
 - supabase
 - tanstack query
+- date-fns
 
 ### Styling
 
