@@ -2,12 +2,10 @@
 
 ## Technologies
 
-- vite
 - react with javascript
 - react router
 - supabase
-- tanstack query
-- date-fns
+- react query
 
 ### Styling
 
@@ -38,13 +36,3 @@
   - A chart showing statistics on stay durations, as this is an important metric for the hotel
 - Users should be able to define a few application-wide settings: breakfast price, min and max nights/booking, max guests/booking
 - App needs a dark mode
-
-## Screenshots
-
-## Dependencies
-
-```
-npm install @supabase/supabase-js
-npm i @tanstack/react-query
-
-```
