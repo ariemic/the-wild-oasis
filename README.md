@@ -1,17 +1,5 @@
 # The Wild Oasis
 
-## Technologies
-
-- react with javascript
-- react router
-- supabase
-- react query
-
-### Styling
-
-- styled components
-- react icons
-
 ## App Requirements
 
 - Users of the app are hotel employees. They need to be logged into the application to perform tasks
@@ -36,3 +24,15 @@
   - A chart showing statistics on stay durations, as this is an important metric for the hotel
 - Users should be able to define a few application-wide settings: breakfast price, min and max nights/booking, max guests/booking
 - App needs a dark mode
+
+## Technologies
+
+- react with javascript
+- react router for page navigation
+- supabase for database menagement
+- react query for fetching data
+
+### Styling
+
+- styled components
+- react icons
