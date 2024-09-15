@@ -49,6 +49,7 @@ const Error = styled.span`
 function FormRow({ label, error, children, orientation }) {
   return (
     <StyledFormRow orientation={orientation}>
+      {/* children.props.id we can use it only when there is a one child! */}
       {label && <Label htmlFor={children.props.id}>{label}</Label>}
       {children}
       {error && <Error>{error}</Error>}

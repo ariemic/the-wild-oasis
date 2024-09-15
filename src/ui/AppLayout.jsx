@@ -13,6 +13,8 @@ const StyledAppLayout = styled.div`
 const Main = styled.main`
   background-color: var(--color-grey-50);
   padding: 4rem 4.8rem 6.4rem;
+  /* Only this  ⬇️ make sidebar and header fixed beacuse we allow for scroll in main only 😉 */
+  overflow: scroll;
 `;
 
 const Container = styled.div`
