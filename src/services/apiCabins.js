@@ -55,6 +55,8 @@ export async function createEditCabin(newCabin, id) {
       "Cabin image couldn't be uploaded and cabin was not created"
     );
   }
+
+  return data;
 }
 
 export async function deleteCabin(id) {
