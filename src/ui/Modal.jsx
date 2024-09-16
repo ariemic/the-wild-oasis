@@ -1,4 +1,8 @@
+import { createPortal } from "react-dom";
+import { HiXMark } from "react-icons/hi2";
 import styled from "styled-components";
+
+/*  CSS backdrop-filter applies the blur effect to the content behind the element it's applied to. Since StyledModal is inside the Overlay, it does not get blurred by the backdrop-filter. The backdrop-filter will only blur elements that are behind Overlay itself, not its child elements. */
 
 const StyledModal = styled.div`
   position: fixed;
@@ -48,3 +52,19 @@ const Button = styled.button`
     color: var(--color-grey-500);
   }
 `;
+
+function Modal({ children, onClose }) {
+  return createPortal(
+    <Overlay>
+      <StyledModal>
+        <Button onClick={onClose}>
+          <HiXMark />
+        </Button>
+        <div>{children}</div>
+      </StyledModal>
+    </Overlay>,
+    document.body
+  );
+}
+
+export default Modal;
