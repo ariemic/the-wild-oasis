@@ -76,6 +76,7 @@ function Modal({ children }) {
   );
 }
 
+//! opens and name are connected as opens and name we provide same argument/name
 function Open({ children, opens: opensWindowName }) {
   const { open } = useContext(ModalContext);
 
